@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: lorenz attractor
+  host: lorenz-attractor
+  disk_quota: 1024M
+  services:
+  - lorenz attractor-cloudantNoSQLDB
+  - Internet of Things Platform-jz
