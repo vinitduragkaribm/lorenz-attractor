@@ -50,7 +50,7 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     functionGlobalContext: {
-    	//ibmiotf:require('ibmiotf')
+    	ibmiotf:require("ibmiotf")
     },
 
     storageModule: require("./couchstorage")
